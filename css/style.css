@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  
+}
+
+body {
+  background-image: url(../assets/abstract-solid-shining-yellow-gradient-studio-wall-room-background_1258-54539.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+
+.conteiner {
+  width: 50%;
+  box-sizing: border-box;
+  height: 630px;
+  background: bisque;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -40%);
+  border-radius: 20px;
+}
+
+h2 {
+font-size: 30px;
+text-transform: uppercase;
+margin: 30px 0;
+text-align: center;
+}
+
+form {
+  width: 50%;
+  margin-left: 154px;
+}
+
+.data {
+display: flex;
+justify-content: space-between;
+}
+
+.dropdown {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.gender {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.dob{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.address {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.religion {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.atachement {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
